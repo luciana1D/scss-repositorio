@@ -5,12 +5,11 @@
 }
 
 header {
-  background-color: rgb(228, 58, 157);
-}
-header .header-flex {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(228, 58, 157);
 }
 header .header-flex h1 {
   padding: 20px;
