@@ -1,0 +1,6 @@
+SASS 2 + SEO
+En esta nueva entre del proyecto añadi las siguientes cosas:
+-Agrege las siguientes keywords: anime, nana, anime store.
+-Agregue un titulo que corresponde a cada secciòn de la pàgina
+-Le añadi una descripciòn a cada secciòn
+-Los encabezados ya se encontraban en orden jerarquico, entonces los deje como estaba.

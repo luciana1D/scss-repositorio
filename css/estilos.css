@@ -5,11 +5,16 @@
 }
 
 header {
+  background-color: rgb(228, 58, 157);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: rgb(228, 58, 157);
+}
+header .header-flex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 header .header-flex h1 {
   padding: 20px;
@@ -33,7 +38,7 @@ nav div {
   margin: 1px;
   padding: 15px;
 }
-nav div li {
+nav li {
   background-color: rgb(228, 58, 157);
   padding: 10px 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -68,10 +73,40 @@ main .galeria-flex {
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
+main div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(228, 58, 157);
+  margin: 1px;
+  padding: 15px;
+}
+main main aside .columna-flex {
+  display: flex;
+  flex-flow: column nowrap;
+}
 
 body {
   grid-area: cuerpo;
   background-color: black;
+}
+
+h4 {
+  text-align: center;
+  background-color: lightblue;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
@@ -98,6 +133,17 @@ footer div p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*EXTENDS*/
+.degrade, .segundodegrade {
+  background-image: linear-gradient(rgb(228, 58, 157) 20%, cyan);
+  padding: 10px;
+}
+
+.segundodegrade {
+  padding: 15px;
+}
+
+/*MIXINS*/
 .logo {
   margin: 2%;
   width: 250px;

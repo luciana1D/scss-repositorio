@@ -1,5 +1,9 @@
 header {
         background-color: rgb(228, 58, 157);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
         .header-flex {
             display: flex;
             flex-flow: row wrap;

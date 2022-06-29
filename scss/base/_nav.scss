@@ -5,6 +5,7 @@ nav
     background-color: rgb(228, 58, 157);
     margin: 1px;
     padding: 15px;
+    }
     li {
         background-color: rgb(228, 58, 157);
         padding: 10px 30px;
@@ -12,7 +13,6 @@ nav
         margin: 5px;
         display: inline;
     }
-}
     .nav-flex {
         display: flex;
         flex-flow: row nowrap;

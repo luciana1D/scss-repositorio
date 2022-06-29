@@ -11,8 +11,24 @@
 @import "./base/body";
 @import "./base/footer";
 
+/*EXTENDS*/ 
+.degrade {
+    background-image: linear-gradient(rgb(228, 58, 157) 20%, cyan);
+    padding: 10px;
+}
+.segundodegrade{
+    @extend .degrade;
+    padding: 15px;
+
+}
+/*MIXINS*/
+@mixin name($margen, $ancho) {
+    margin: $margen;
+    width: $ancho;
+}
 
 .logo {
-    margin: 2%;
-    width: 250px;
-}
+    @include name(2%, 250px);
+        
+    }
+
