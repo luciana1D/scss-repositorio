@@ -40,9 +40,9 @@ nav div {
 }
 nav li {
   background-color: rgb(228, 58, 157);
-  padding: 10px 30px;
+  padding: 5px 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 5px;
+  margin: 10px;
   display: inline;
 }
 nav .nav-flex {
@@ -132,6 +132,7 @@ footer div {
 footer div img {
   width: 35px;
   height: 40px;
+  text-align: center;
 }
 footer div p {
   color: aliceblue;
