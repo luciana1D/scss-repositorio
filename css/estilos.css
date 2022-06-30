@@ -186,6 +186,10 @@ footer div p {
     font-size: 15px;
     text-align: center;
   }
+  nav img {
+    width: 200px;
+    height: 200px;
+  }
   main img {
     width: 150px;
     height: 150px;
