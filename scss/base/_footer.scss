@@ -5,16 +5,18 @@ footer {
     margin: 15px;
     padding: 20px;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
     div {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: rgb(228, 58, 157);
         margin: 1px;
         padding: 15px;
         img {
-            width: 35px;
-            height: 40px;
-            text-align: center;
-        }
+                width: 35px;
+                height: 40px;
+                
+            }
         p {
             color: aliceblue;
             text-align: center;
