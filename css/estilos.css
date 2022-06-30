@@ -186,10 +186,6 @@ footer div p {
     font-size: 15px;
     text-align: center;
   }
-  nav img {
-    width: 200px;
-    height: 200px;
-  }
   main img {
     width: 150px;
     height: 150px;
@@ -221,10 +217,6 @@ footer div p {
     margin: 1px;
     padding: 15px;
     text-align: center;
-  }
-  div img {
-    width: 30px;
-    height: 30px;
   }
   div p {
     color: aliceblue;
