@@ -133,6 +133,80 @@ footer div p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*TABLET*/
+@media (min-width: 481px) and (max-width: 1023px) {
+  main img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+  }
+  li {
+    padding: 6px 20px;
+    margin: 5px;
+    display: inline;
+    border-radius: 7px;
+  }
+  div {
+    background-color: rgb(228, 58, 157);
+    margin: 1px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  .logo {
+    margin: 2%;
+    width: 200px;
+  }
+  footer {
+    margin: 10px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+/*MOBILE*/
+@media (max-width: 425px) {
+  div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(228, 58, 157);
+    margin: 1px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  main img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+  }
+  .logo {
+    margin: 2%;
+    width: 200px;
+  }
+  footer {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 15px;
+    font-size: 15px;
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+  }
+  .footer-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 /*EXTENDS*/
 .degrade, .segundodegrade {
   background-image: linear-gradient(rgb(228, 58, 157) 20%, cyan);
