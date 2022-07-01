@@ -1,5 +1,5 @@
 /*TABLET*/ 
-@media (min-width: 450px) and (max-width: 1023px) {
+@media (min-width: 450px) and (max-width: 1020px) {
     main img {
         width: 200px;
         height: 200px;
@@ -26,37 +26,8 @@
     }
 
 }
-footer {
-    grid-area: pie;
-    background-color: black;
-    color: azure;
-    margin: 10px;
-    padding: 15px;
-    font-size: 15px;
-    justify-content: center;
-    align-items: center;
-}
 
-.footer-flex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-}
 
-div {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(228, 58, 157);
-    margin: 1px;
-    padding: 15px;
-    text-align: center;
-    p {
-        color: aliceblue;
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    }
-}
 
 /*MOBILE*/
 @media (max-width:420px) {
